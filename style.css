@@ -59,8 +59,36 @@ h1{
     width: vw;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
+
+main{
+    background-color: #FFA185;
+}
+
+h2{
+    width: 20vw;
+    height: 10vh;
+    margin: 0em 0em 0em 1em;
+    padding: 2em 0em 1em 0em;
+    color: white;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.description{
+    width: 50vw;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 
 
