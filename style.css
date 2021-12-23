@@ -34,6 +34,13 @@ li{
     color: white;
 }
 
+.pointer{
+    background-image: url(galeria/pointer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: 2em;
+}
+
 h1{
     font-size: 6em;
     color: white;
@@ -65,10 +72,14 @@ h1{
 
 main{
     background-color: #FFA185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h2{
-    width: 20vw;
+    width: 63vw;
     height: 10vh;
     margin: 0em 0em 0em 1em;
     padding: 2em 0em 1em 0em;
@@ -81,14 +92,47 @@ h2{
 }
 
 .description{
-    width: 50vw;
+    width: 60vw;
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
     margin: 1.5em;
     display: flex;
     flex-wrap: wrap;
-
 }
 
+.pictures{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
 
+.image{
+    margin: 1em;
+    block-size: 25em;
+}
 
+.seemore{
+    margin: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+footer{
+    height: 12vh;
+    background-color: #129799;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.icons{
+    margin-left: 10em;
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    block-size: 3.5em;
+}
